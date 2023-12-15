@@ -1,4 +1,6 @@
 import cv2
+import torch
+import socket
 import easyocr
 import uvicorn
 import numpy as np
@@ -39,6 +41,8 @@ async def predict(imagefile: UploadFile = File(...)):
     results = recognition(image)
 
     return {
+        "container ID": socket.gethostname(),
+        "using_gpu": torch.cuda.is_available(),
         "results": results
     }
 
