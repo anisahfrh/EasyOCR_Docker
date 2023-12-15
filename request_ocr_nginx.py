@@ -1,6 +1,6 @@
 import requests
 
-url = "http://172.17.0.2:8000/ocr"
+url = "http://localhost:80/ocr"
 
 # Replace this with the path to the image file you want to send
 file_path = "sample.png"
