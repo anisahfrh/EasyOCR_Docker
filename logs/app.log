@@ -1,30 +1,118 @@
-2023-12-20 07:58:09.282 | INFO     | __main__:predict:44 - Request received by container ID: d32e04bf083d
-2023-12-20 07:58:09.833 | INFO     | __main__:predict:49 - Request processed in 0.5501 seconds
-2023-12-20 07:59:01.073 | INFO     | __main__:predict:44 - Request received by container ID: d32e04bf083d
-2023-12-20 07:59:02.247 | INFO     | __main__:predict:49 - Request processed in 1.1743 seconds
-2023-12-20 07:59:30.987 | INFO     | __main__:predict:44 - Request received by container ID: 6a4c27960e33
-2023-12-20 07:59:32.292 | INFO     | __main__:predict:49 - Request processed in 1.3060 seconds
-2023-12-20 07:59:36.521 | INFO     | __main__:predict:44 - Request received by container ID: 63c0c59d8fe4
-2023-12-20 07:59:37.075 | INFO     | __main__:predict:49 - Request processed in 0.5542 seconds
-2023-12-20 07:59:44.689 | INFO     | __main__:predict:44 - Request received by container ID: d32e04bf083d
-2023-12-20 07:59:44.973 | INFO     | __main__:predict:49 - Request processed in 0.2849 seconds
-2023-12-20 07:59:46.992 | INFO     | __main__:predict:44 - Request received by container ID: 6a4c27960e33
-2023-12-20 07:59:47.320 | INFO     | __main__:predict:49 - Request processed in 0.3287 seconds
-2023-12-20 08:00:11.124 | INFO     | __main__:predict:44 - Request received by container ID: 63c0c59d8fe4
-2023-12-20 08:00:12.326 | INFO     | __main__:predict:49 - Request processed in 1.2026 seconds
-2023-12-20 08:51:18.666 | INFO     | __main__:predict:44 - Request received by container ID: d32e04bf083d
-2023-12-20 08:51:19.882 | INFO     | __main__:predict:49 - Request processed in 1.2164 seconds
-2023-12-20 09:17:28.896 | INFO     | __main__:predict:45 - Request received by container ID: 191d80725906
-2023-12-20 09:17:30.450 | INFO     | __main__:predict:50 - Request processed in 1.5544 seconds
-2023-12-20 10:34:25.459 | INFO     | __main__:predict:45 - Request received by container ID: 8b67c21b9d28
-2023-12-20 10:34:26.143 | INFO     | __main__:predict:50 - Request processed in 0.6847 seconds
-2023-12-20 10:34:33.054 | INFO     | __main__:predict:45 - Request received by container ID: 247eb3486387
-2023-12-20 10:34:33.659 | INFO     | __main__:predict:50 - Request processed in 0.6052 seconds
-2023-12-20 10:35:13.616 | INFO     | __main__:predict:45 - Request received by container ID: 8b67c21b9d28
-2023-12-20 10:35:13.962 | INFO     | __main__:predict:50 - Request processed in 0.3466 seconds
-2023-12-20 10:35:19.187 | INFO     | __main__:predict:45 - Request received by container ID: 247eb3486387
-2023-12-20 10:35:19.530 | INFO     | __main__:predict:50 - Request processed in 0.3427 seconds
-2023-12-20 10:35:33.484 | INFO     | __main__:predict:45 - Request received by container ID: 561dae480ced
-2023-12-20 10:35:34.036 | INFO     | __main__:predict:50 - Request processed in 0.5521 seconds
-2023-12-20 10:35:36.196 | INFO     | __main__:predict:45 - Request received by container ID: 8b67c21b9d28
-2023-12-20 10:35:36.322 | INFO     | __main__:predict:50 - Request processed in 0.1256 seconds
+2023-12-27 09:39:31.318 | INFO     | __main__:<module>:16 - af0d4a2b19cd - Downloading model...
+2023-12-27 09:39:32.183 | INFO     | __main__:<module>:16 - 77190be01f23 - Downloading model...
+2023-12-27 09:39:32.938 | INFO     | __main__:<module>:16 - 338ff21c094f - Downloading model...
+2023-12-27 09:40:47.106 | INFO     | __main__:<module>:18 - af0d4a2b19cd - Model downloaded
+2023-12-27 09:40:51.589 | INFO     | __main__:<module>:18 - 338ff21c094f - Model downloaded
+2023-12-27 09:40:56.248 | INFO     | __main__:<module>:18 - 77190be01f23 - Model downloaded
+2023-12-27 09:41:56.864 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:42:41.634 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:42:49.914 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:42:51.984 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:43:43.840 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:24.356 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:25.647 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:26.489 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:27.266 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:28.075 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:28.838 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:29.621 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:30.361 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:31.131 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:32.237 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:32.733 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:33.246 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:33.730 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:34.703 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:35.171 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:35.662 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:36.130 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:36.618 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:37.094 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:37.565 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:38.068 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:38.526 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:38.993 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:39.481 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:39.977 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:40.443 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:40.916 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:41.370 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:41.844 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:42.280 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:42.632 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:42.897 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:43.147 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:43.365 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:43.595 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:43.844 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:44.080 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:44.307 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:44.520 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:44.767 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:44.983 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:45.231 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:45.464 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:45.721 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:45.970 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:46.215 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:46.453 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:46.713 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:46.966 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:47.205 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:47.453 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:47.704 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:47.991 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:48.261 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:48.515 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:48.797 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:49.035 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:49.290 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:49.587 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:49.845 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:50.091 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:50.341 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:50.594 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:50.850 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:51.100 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:51.342 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:51.544 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:51.745 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:52.025 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:52.282 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:52.539 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:52.757 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:53.041 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:53.313 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:53.557 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:53.808 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:48:54.070 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:48:54.295 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:48:56.152 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:13.550 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:14.123 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:14.966 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:15.311 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:15.640 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:15.930 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:16.208 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:16.457 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:16.712 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:16.974 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:17.209 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:17.467 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:17.720 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:17.963 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:18.211 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:18.428 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:18.679 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:18.906 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:19.159 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:19.388 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:19.619 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:19.872 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:20.117 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:20.338 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:20.597 | INFO     | __main__:predict:66 - 338ff21c094f - Request received
+2023-12-27 09:49:20.824 | INFO     | __main__:predict:66 - af0d4a2b19cd - Request received
+2023-12-27 09:49:21.047 | INFO     | __main__:predict:66 - 77190be01f23 - Request received
+2023-12-27 09:49:21.886 | INFO     | __main__:predict:66 - 338ff21c094f - Request received

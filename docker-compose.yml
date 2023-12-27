@@ -12,11 +12,13 @@ services:
           - driver: nvidia
             count: 1
             capabilities: [gpu]
+    restart: always
     volumes:
       - ./logs:/home/ubuntu/logs
   
   nginx:
     image: nginx:latest
+    restart: always
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
     depends_on:
