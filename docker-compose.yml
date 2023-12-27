@@ -12,6 +12,8 @@ services:
           - driver: nvidia
             count: 1
             capabilities: [gpu]
+    volumes:
+      - ./logs:/home/ubuntu/logs
   
   nginx:
     image: nginx:latest
